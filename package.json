@@ -1,0 +1,17 @@
+{
+  "name": "honodos",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "hono": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "vercel": "^35.2.2"
+  }
+}
